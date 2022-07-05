@@ -54,7 +54,7 @@ public class CarPark {
     }
 
     public void addMotorcycleToCarPark() {
-        if(this.totalMotorBikeSpaces == 0 || totalSpaces == 0) {
+        if(this.totalMotorBikeSpaces == 0) {
             System.out.println("All MotorBike Spots are Taken");
             this.totalCarSpaces = totalCarSpaces - 1;
         } else {
